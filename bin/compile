@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 curl http://archive.ubuntu.com/ubuntu/pool/main/t/transmission/transmission_1.06.orig.tar.gz >  transmission_1.06.orig.tar.gz
 tar -xf transmission_1.06.orig.tar.gz
-ls
-exit 0
 cd transmission-1.06.orig/
 ./configure
 make
