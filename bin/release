@@ -1,0 +1,7 @@
+#!/usr/env/bin bash
+
+cat << EOF
+---
+default_process_types:
+  web: transmission-daemon
+EOF
